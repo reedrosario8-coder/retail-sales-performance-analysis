@@ -67,3 +67,15 @@ Revenue was relatively balanced between the two groups.
 
 ## Project Summary
 This project provided practical experience in data cleaning, exploratory data analysis, business interpretation and dashboard development. It demonstrates how spreadsheet analysis and data visualisation can be combined to identify patterns and communicate business insights.
+
+## Dashboard Preview
+![Retail Sales Performance Dashboard](Screenshot%202026-11-17%20at%2015.47.59.png)
+
+## Dataset Source
+The dataset used in this project was obtained from Kaggle:
+
+- **Dataset:** Retail Sales Dataset
+- **Creator:** Mohammad Talib
+- **Source:** [Kaggle – Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
+
+The dataset is used for educational and portfolio analysis purposes.
