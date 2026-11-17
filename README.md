@@ -63,7 +63,7 @@ Revenue was relatively balanced between the two groups.
 - Findings describe this dataset and should not automatically be generalised to all retail businesses.
 
 ## Dashboard
-[View the interactive Tableau Public dashboard](https://public.tableau.com:9443/views/Retailsalesperformancedashboard_17948027710890/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[View the interactive Tableau Public dashboard](https://public.tableau.com/app/profile/reed.rosario/viz/Retailsalesperformancedashboard_17948027710890/Dashboard1?publish=yes)
 
 ## Project Summary
 This project provided practical experience in data cleaning, exploratory data analysis, business interpretation and dashboard development. It demonstrates how spreadsheet analysis and data visualisation can be combined to identify patterns and communicate business insights.
