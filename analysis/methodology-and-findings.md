@@ -1,60 +1,100 @@
 # Methodology and Findings
 
-## 1. Data Preparation
+## 1. Project Overview
 
-The dataset contained 1,000 retail transactions from 2023.
+This project involved analysing a retail sales dataset containing 1,000 transactions from 2023. The goal was to understand how the business performed, identify sales trends and explore which product categories and customer groups generated the most revenue.
 
-Using Google Sheets, I:
-- Checked the dataset for missing values.
-- Checked that transaction IDs were unique.
-- Created age brackets to group customers into five age ranges.
-- Used pivot tables and formulas to summarise revenue, transaction counts and quantities sold.
-- Aggregated sales data by month, product category, gender and age group.
+I used Google Sheets to prepare and analyse the data, then Tableau Public to create a dashboard showing the main findings.
 
-## 2. Key Findings
+## 2. Data Preparation and Analysis
+
+Before analysing the data, I used Google Sheets to check and organise the dataset.
+
+The steps I completed included:
+
+- Checked for missing values across the original dataset. No missing values were found.
+- Checked transaction IDs to make sure each transaction had a unique ID.
+- Created age groups to make it easier to compare customer segments.
+- Used pivot tables to summarise revenue and transaction counts.
+- Calculated average transaction values and revenue per unit.
+- Compared sales performance across months, product categories, gender and age groups.
+
+After completing the analysis, I used Tableau Public to create visualisations and bring the findings together in an interactive dashboard.
+
+## 3. Key Findings
 
 ### Revenue by Product Category
-- Electronics generated the highest revenue at $156,905.
-- Clothing generated $155,580.
-- Beauty generated $143,515.
-- Clothing recorded the highest quantity sold, with 894 units.
 
-### Monthly Revenue
-- May recorded the highest monthly revenue at $53,150.
-- September recorded the lowest monthly revenue at $23,620.
-- May had 105 transactions, compared with 65 in September.
+Electronics generated the highest revenue at $156,905, followed closely by Clothing at $155,580. Beauty generated $143,515.
 
-This suggests that the difference in monthly revenue was associated with both transaction volume and average transaction value. The dataset does not establish why this difference occurred.
+However, Clothing recorded the highest quantity sold, with 894 units.
+
+When comparing revenue per unit:
+
+- Beauty: $186.14
+- Electronics: $184.81
+- Clothing: $174.03
+
+This shows that although Clothing sold the most units, it generated the lowest revenue per unit.
+
+### Monthly Revenue Trends
+
+May was the strongest month, generating $53,150 in revenue, while September was the weakest month at $23,620.
+
+There was also a difference in the number of transactions:
+
+- May recorded 105 transactions.
+- September recorded 65 transactions.
+
+The average transaction value was $506.19 in May compared with $363.38 in September.
+
+This suggests that September's lower revenue was associated with both fewer transactions and a lower average amount spent per transaction. However, the dataset does not explain why this happened.
 
 ### Customer Segments
-- Customers aged 46–55 generated the highest revenue at $100,690.
-- Customers aged 26–35 generated $98,480.
-- Female customers generated $232,840, while male customers generated $223,160.
 
-Revenue was relatively balanced across genders.
+Customers aged 46–55 generated the highest revenue at $100,690, followed by customers aged 26–35 at $98,480.
 
-## 3. Business Recommendations
+The gender comparison showed relatively similar results:
 
-1. **Review category performance:** Investigate why Electronics generated slightly more revenue than the other categories and assess whether this pattern continues over time.
-2. **Explore clothing revenue opportunities:** Clothing recorded the highest quantity sold but the lowest revenue per unit. Investigate product mix, bundles and potential upselling opportunities.
-3. **Investigate September performance:** Review seasonality, promotions, stock availability and marketing activity to understand the lower revenue.
-4. **Understand customer segments:** Explore marketing approaches for the 46–55 age group, which generated the highest revenue, while continuing to monitor other age groups.
+- Female customers generated $232,840.
+- Male customers generated $223,160.
 
-These are suggested areas for further investigation rather than proven causes or guaranteed improvements.
+Overall, revenue was fairly evenly distributed between the two gender groups.
 
-## 4. Limitations
+## 4. Business Recommendations
+
+Based on the findings, I identified several areas the business could investigate further:
+
+1. **Product category performance:** Electronics generated the highest revenue, although the difference between the three categories was relatively small. The business could continue monitoring category performance to identify changes in customer demand.
+
+2. **Clothing sales opportunities:** Clothing sold the highest number of units but had the lowest revenue per unit. The business could investigate its product mix, bundles and upselling opportunities to see whether revenue per unit could be improved.
+
+3. **September sales performance:** September had the lowest revenue and fewer transactions than May. The business could investigate whether seasonal demand, promotions, stock availability or marketing activity contributed to this result.
+
+4. **Customer segments:** Customers aged 46–55 generated the highest revenue. The business could explore marketing approaches for this group while continuing to understand the purchasing behaviour of other age groups.
+
+These recommendations are based on the patterns found in the dataset. Further information would be needed to confirm the reasons behind these trends.
+
+## 5. Dataset Limitations
+
+There were some limitations to the analysis:
 
 - The dataset contains 1,000 transactions and is an educational retail sales dataset.
-- Individual product names, costs, profit margins, discounts and marketing campaign data are not available.
-- Customer income and occupation are not included.
-- The dataset does not explain the reasons behind monthly revenue changes.
-- Findings describe this dataset and should not automatically be generalised to all retail businesses.
+- Individual product names were not available, so the analysis was limited to three product categories.
+- The dataset did not include product costs or profit margins, so profitability could not be calculated.
+- There was no information about discounts or marketing campaigns.
+- Customer income and occupation were not available, so purchasing power could not be determined.
+- The reasons behind monthly changes in revenue could not be confirmed.
 
-## 5. Tools Used
+Because of these limitations, the findings describe the dataset used in this project and may not represent the performance of other retail businesses.
 
-- **Google Sheets:** Data checks, calculations, pivot tables and exploratory analysis.
-- **Tableau Public:** Data visualisation and interactive dashboard development.
+## 6. Tools Used
 
-## 6. Project Outcome
+- **Google Sheets:** Used for checking data, creating age groups, calculating sales metrics and analysing trends with pivot tables.
+- **Tableau Public:** Used to create charts and an interactive dashboard to present the findings.
 
-This project provided practical experience in data preparation, exploratory analysis, business interpretation and data visualisation. It demonstrates how spreadsheet analysis can be used to identify trends and communicate business insights.
+## 7. Project Outcome
+
+Through this project, I gained practical experience working with a retail dataset, analysing sales performance and presenting findings through data visualisation.
+
+I also developed a better understanding of how data can help identify business trends and support recommendations, while recognising the limitations of the information available.
